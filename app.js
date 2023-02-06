@@ -3,7 +3,8 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 
-const uri = process.env.DATABASE_URI;
+const uri =
+  "mongodb+srv://pfactorial:new_pass*123@cluster0.leidy8g.mongodb.net/?retryWrites=true&w=majority";
 mongoose.set("strictQuery", false);
 mongoose.connect(uri, { useNewUrlParser: true });
 const db = mongoose.connection;
