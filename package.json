@@ -1,0 +1,30 @@
+{
+  "name": "curly-blog",
+  "version": "1.0.0",
+  "description": "A REST API with basic blog functionalities like blog creation, comments, likes and total number of views, built with NodeJs and Express Server and remote MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pfactorial01/curly-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pfactorial01/curly-blog/issues"
+  },
+  "homepage": "https://github.com/Pfactorial01/curly-blog#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "jest": "^29.4.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  }
+}
