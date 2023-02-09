@@ -30,7 +30,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// Co-author Blog
+// Co-author Blog and like functionality
 router.patch("/:blog_id", getBlog, async (req, res) => {
   if (req.body.title != null) {
     res.blog.title = req.body.title;
